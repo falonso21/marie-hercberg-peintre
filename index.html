@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marie Hercberg — Peintre</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="nav">
+        <a href="#accueil" class="nav-name">Marie Hercberg</a>
+        <div class="nav-links">
+            <a href="#galerie">Galerie</a>
+            <a href="#biographie">Biographie</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <button class="menu-toggle" aria-label="Menu">
+            <span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- Accueil -->
+    <section id="accueil" class="accueil">
+        <div class="accueil-cover">
+            <img src="peintures/IMG_8163.jpg" alt="Œuvre de Marie Hercberg" class="accueil-img">
+        </div>
+        <div class="accueil-gradient"></div>
+        <div class="accueil-caption">
+            <div class="accueil-caption-left">
+                <h1>Marie<br>Hercberg</h1>
+            </div>
+            <div class="accueil-caption-right">
+                <span class="accueil-medium">Huile sur papier</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galerie -->
+    <section id="galerie" class="galerie">
+        <h2 class="section-title fade-in">Galerie</h2>
+        <div class="gallery-masonry" id="gallery-grid"></div>
+        <p class="gallery-empty" id="gallery-empty">
+            Les œuvres seront affichées ici.
+        </p>
+    </section>
+
+    <!-- Biographie -->
+    <section id="biographie" class="biographie">
+        <div class="bio-inner fade-in">
+            <div class="bio-portrait">
+                <img src="Bio/1597679806958.jpeg" alt="Marie Hercberg">
+            </div>
+            <div class="bio-text">
+                <h2>Biographie</h2>
+                <p>
+                    Marie Hercberg est une artiste peintre dont l'œuvre se situe à la frontière
+                    entre figuration et abstraction, dans une quête permanente de lumière et d'absolu.
+                    Le noir et le blanc dominent son travail, où chaque geste devient une méditation
+                    sur l'essence même de la peinture.
+                </p>
+                <p>
+                    Nourrie par l'enseignement de Zao Wou Ki et dans la lignée de Pierre Soulages
+                    ou Jean Degottex, elle développe une voie profondément personnelle. Son travail à
+                    l'huile sur papier révèle une approche singulière où la matière picturale oscille
+                    entre préméditation et hasard, entre maîtrise et abandon. La transparence, concept
+                    central de son œuvre, devient une métaphore de sa philosophie artistique : suggérer
+                    l'invisible, révéler ce qui se cache sous la surface.
+                </p>
+                <p>
+                    Ses œuvres sont présentes dans des collections publiques, notamment au
+                    Musée Joseph Déchelette de Roanne. Elle a travaillé avec des pigments venus
+                    de Marrakech, témoignant d'une volonté d'aller au-delà des frontières
+                    artistiques et culturelles pour créer une peinture universelle.
+                </p>
+            </div>
+        </div>
+
+        <!-- Témoignages -->
+        <div class="testimonials fade-in">
+            <h3 class="section-title">Ils parlent de son œuvre</h3>
+            <div class="testimonials-grid">
+                <blockquote>
+                    <p>&laquo;&nbsp;Marie guette ce moment où la vie surgit du néant, où le noir fait
+                    saigner le blanc, où des forces restées secrètes percent des profondeurs
+                    pour pénétrer le fond de l'œil&hellip;&nbsp;&raquo;</p>
+                    <cite>Zeev Gourarier, Directeur Scientifique et Culturel du MUCEM, Marseille</cite>
+                </blockquote>
+                <blockquote>
+                    <p>&laquo;&nbsp;Je connais l'œuvre de Marie, sa finesse et sa force me parle,
+                    c'est fluide et puissant comme un torrent de montagne qui aurait été enfanté
+                    par une aurore boréale.&nbsp;&raquo;</p>
+                    <cite>Jean-Marc Rochette, peintre, illustrateur, auteur</cite>
+                </blockquote>
+                <blockquote>
+                    <p>&laquo;&nbsp;C'est fin, subtil, intelligent. Ce travail de suggestion de fleurs
+                    comme des mélodies transparentes sur des papiers blancs&hellip;&nbsp;&raquo;</p>
+                    <cite>CharlElie Couture, artiste pluridisciplinaire</cite>
+                </blockquote>
+                <blockquote>
+                    <p>&laquo;&nbsp;Marie ne peint pas pour plaire, ou pour séduire&hellip;
+                    Marie peint parce qu'elle doit peindre, parce que ça doit sortir,
+                    sans compromission aucune.&nbsp;&raquo;</p>
+                    <cite>Wado (Dominik Wauthy), peintre</cite>
+                </blockquote>
+                <blockquote>
+                    <p>&laquo;&nbsp;C'est beau et silencieux, les huiles sur papier sont d'une infinie
+                    subtilité. Toute l'œuvre s'enracine dans une sorte d'esthétique
+                    du blanc.&nbsp;&raquo;</p>
+                    <cite>Gérard Gamand, rédacteur en chef, AZART</cite>
+                </blockquote>
+                <blockquote>
+                    <p>&laquo;&nbsp;Ta peinture nous élève. D'une certaine manière, je dirais
+                    qu'elle prie pour nous.&nbsp;&raquo;</p>
+                    <cite>Christian Chavassieux, écrivain</cite>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="contact-inner fade-in">
+            <h2>Contact</h2>
+            <p class="contact-text">Pour toute demande de renseignements, commande ou exposition</p>
+            <a href="mailto:mariehercberg92@gmail.com" class="contact-email">mariehercberg92@gmail.com</a>
+            <form class="contact-form" action="https://formsubmit.co/mariehercberg92@gmail.com" method="POST">
+                <input type="hidden" name="_subject" value="Nouveau message depuis mariehercberg.com">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="merci.html">
+                <input type="text" name="_honey" style="display:none">
+                <div class="form-row">
+                    <input type="text" name="name" placeholder="Nom" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <textarea name="message" placeholder="Message" rows="4" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+            <div class="contact-social">
+                <a href="https://www.instagram.com/marie_hercberg_peintre_/" target="_blank" rel="noopener" class="social-link">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                    Instagram
+                </a>
+                <a href="https://fr.linkedin.com/in/marie-hercberg-44481a14" target="_blank" rel="noopener" class="social-link">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                    LinkedIn
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Marie Hercberg</p>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" aria-label="Fermer">&times;</button>
+        <button class="lightbox-prev" aria-label="Précédent">&#8249;</button>
+        <button class="lightbox-next" aria-label="Suivant">&#8250;</button>
+        <img src="" alt="" id="lightbox-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
